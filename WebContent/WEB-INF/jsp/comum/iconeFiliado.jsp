@@ -1,0 +1,1 @@
+<img alt="Filiado" src="/sigete/imagens/simbolo_filiado.jpg"  width="30" height="30"/> 

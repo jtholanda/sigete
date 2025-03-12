@@ -1,0 +1,12 @@
+*.classpath
+*.project
+backup.backup
+consultas sql.txt
+*.txt
+/build
+/production
+/.settings
+dados.properties
+web.xml
+/src/production.properties
+

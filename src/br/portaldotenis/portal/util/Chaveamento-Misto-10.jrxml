@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.0.final using JasperReports Library version 6.3.0  -->
+<!-- 2016-12-14T21:35:45 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Sigete" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="cc51a397-38a6-463b-b535-7c224a2564a3">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Postgres"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="nomeTorneio" class="java.lang.String"/>
+	<parameter name="tenista1" class="java.lang.String"/>
+	<parameter name="tenista2" class="java.lang.String"/>
+	<parameter name="tenista3" class="java.lang.String"/>
+	<parameter name="tenista4" class="java.lang.String"/>
+	<parameter name="nivelTecnico" class="java.lang.String"/>
+	<parameter name="tenista5" class="java.lang.String"/>
+	<parameter name="tenista6" class="java.lang.String"/>
+	<parameter name="tenista7" class="java.lang.String"/>
+	<parameter name="tenista8" class="java.lang.String"/>
+	<parameter name="tenista10" class="java.lang.String"/>
+	<parameter name="tenista9" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="465" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<line>
+				<reportElement x="273" y="171" width="54" height="1" uuid="529ceed2-47a3-4b3a-b769-954d32f66e5d"/>
+			</line>
+			<line>
+				<reportElement x="455" y="170" width="55" height="1" uuid="353e3dac-ad1e-4746-b58d-d65d63fd25fe"/>
+			</line>
+			<line>
+				<reportElement x="197" y="120" width="75" height="1" uuid="cf775aa4-fb14-4348-a6d4-90f1c09d4bbe">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="272" y="120" width="1" height="50" uuid="329fcb9c-ef2d-4fd4-b7cd-c53ac53f2f95">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="121" y="245" width="75" height="1" uuid="3a4a7f6d-f3bb-45e8-8da7-d1fad757e59b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="272" y="169" width="1" height="50" uuid="f06132a2-5028-4254-945d-5eaf81f11a37">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="511" y="120" width="75" height="1" uuid="eb1bb991-99d0-4eda-9a8b-984c17b03bc5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="511" y="120" width="1" height="50" uuid="e4b3c095-cd69-49a2-83af-7cef54f0f73e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="511" y="220" width="75" height="1" uuid="08694074-f98b-4c71-b912-ba5ae84ec6ac">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="511" y="170" width="1" height="50" uuid="f3de320f-139f-4c88-9e9d-53c6aaf58be0">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="11" y="30" width="371" height="30" uuid="3a8bb0c2-9300-4818-b92a-3f76c07c16ff"/>
+				<textElement textAlignment="Left">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nomeTorneio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="148" y="98" width="150" height="20" uuid="df5dadae-7ebc-4ef1-858e-3d96bd3a6fe5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{tenista1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="513" y="100" width="150" height="20" uuid="95e51cc8-3f57-4e37-8058-f9de294652b8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{tenista2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="509" y="290" width="150" height="20" uuid="e869a13a-6202-4ecd-9706-d5aeaf1c0380">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{tenista3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="148" y="290" width="150" height="20" uuid="371a2432-ef03-435d-96b0-9b00bae18cb8">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{tenista4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="11" y="60" width="270" height="30" uuid="1aa5601c-828b-4a6f-bdf7-0eeb69c52bca"/>
+				<textElement>
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nivelTecnico}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="11" y="0" width="359" height="30" uuid="ca36593c-479b-4b9c-941f-570d54bed33b"/>
+				<textElement textAlignment="Left">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CHAVEAMENTO DO TORNEIO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="196" y="220" width="1" height="25" uuid="8ba2f920-07c1-4cad-9709-7498bd87cbfb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="196" y="195" width="1" height="25" uuid="74df08de-6975-4874-8a68-40f8283dd554">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="197" y="219" width="75" height="1" uuid="f32fdc12-98a1-4e9b-b3e0-90bbf1f5454b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="121" y="195" width="75" height="1" uuid="19084640-1409-4117-8037-b65277491554">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="148" y="413" width="150" height="20" uuid="93826f5d-1324-4a69-a87f-0b056c754ea1">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{tenista5}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="586" y="220" width="1" height="25" uuid="a25c79f6-09bd-4868-b4b6-9f3402db6440">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="586" y="195" width="1" height="25" uuid="a333fee2-33a9-4e5c-aa25-b621bdcdf424">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="586" y="195" width="75" height="1" uuid="1845ae9d-8ec6-4e89-ab63-618f52194e0e">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="586" y="245" width="75" height="1" uuid="0b2c1b40-ac02-4c51-8ef2-178c69d552b9">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="511" y="414" width="150" height="20" uuid="8a75c6bb-675a-43c2-bdac-57313605254b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{tenista6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="588" y="175" width="150" height="20" uuid="4f55b0ab-f451-4510-a8b3-c236064de2db">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{tenista7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="102" y="173" width="150" height="20" uuid="423c2dfa-3650-4013-91e8-57f7d348c857">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{tenista8}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="327" y="171" width="1" height="190" uuid="a0db05ec-8365-4741-a66d-59fcf22bf7aa">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="273" y="361" width="54" height="1" uuid="10106d52-8bd3-472d-87a1-b058ec3d9c08"/>
+			</line>
+			<line>
+				<reportElement x="272" y="313" width="1" height="50" uuid="cc8d4a4b-b612-4b18-ac57-3c216ca5908d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="272" y="361" width="1" height="50" uuid="a8f42388-37fd-4f05-be54-edc98aa892f7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="197" y="312" width="75" height="1" uuid="3391c30f-326d-4722-af85-ba80b348eabd">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="198" y="411" width="75" height="1" uuid="2c481e99-6dde-49f9-b76f-60774128c1b5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="455" y="171" width="1" height="190" uuid="8f91f104-0ad6-4bb6-86e9-a47ff3d89169">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="511" y="312" width="75" height="1" uuid="1cf0bbeb-f76b-4d2c-8729-7609a512d767">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="510" y="312" width="1" height="50" uuid="9e218cda-8afc-4bd3-a3fa-6de8011fb64e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="510" y="411" width="75" height="1" uuid="ee03d1d5-822f-4654-b83f-cd4adb7127da">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="510" y="361" width="1" height="50" uuid="8bdd40a8-09d7-4b27-9fae-ef6ba34d3565">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="455" y="361" width="54" height="1" uuid="a00f3f92-c34a-4fa8-a848-e722f6f9c0ae"/>
+			</line>
+			<line>
+				<reportElement x="327" y="264" width="35" height="1" uuid="5aa33c82-7386-4b1c-8e37-2e492326067b"/>
+			</line>
+			<line>
+				<reportElement x="420" y="266" width="35" height="1" uuid="f56c6be8-e91d-4b95-9a7f-a5709979bb17"/>
+			</line>
+			<textField>
+				<reportElement x="586" y="247" width="150" height="20" uuid="ad466247-20a6-48f7-aad8-f4f62ed05122">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{tenista10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="102" y="249" width="150" height="20" uuid="055a74ed-0610-4d83-8421-8b84069e54f8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{tenista9}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="363" y="250" width="57" height="30" uuid="0e6d7a85-4fa4-4102-8f99-a1b4b2596b6b"/>
+			</rectangle>
+		</band>
+	</title>
+</jasperReport>
